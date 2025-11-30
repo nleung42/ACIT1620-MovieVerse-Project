@@ -1,0 +1,41 @@
+#bodyStuff{
+    background-color: gray;
+}
+
+/* #contactDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    background-color: #474747;
+} */
+
+/* #contactNav {
+    display: flex;
+    align-items: center;
+} */
+
+/* #contactNav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+} */
+
+/* #contactNav li {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    float: none;
+} */
+
+/* #contactNav a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    box-sizing: border-box;
+    border: none;
+} */
