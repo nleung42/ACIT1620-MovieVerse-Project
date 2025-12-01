@@ -13,6 +13,8 @@
 
 #mainContent {
     background-color: #313131;
+    border: 1px solid #313131;
+    border-radius: 0.3125rem;
 }
 
 #contentContainer {
@@ -23,10 +25,9 @@
 #infoSection {
     display: flex;
     flex-direction: column;
-    border-radius: 0.25rem;
     padding-left: 2.5rem;
-    margin-right: 6rem;
     text-align: start;
+    width: 100%;
 }
 
 #infoSection h3 {
@@ -36,13 +37,12 @@
 
 #formSection {
     width: 100%;
-
 }
 
 #form {
+    padding-top: 2.5rem;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 0.625rem;
 }
@@ -53,6 +53,7 @@
     align-items: flex-start;
     width: 100%;
     gap: 0.3125rem;
+    margin-right: 3.75rem;
 }
 
 .layout label {
