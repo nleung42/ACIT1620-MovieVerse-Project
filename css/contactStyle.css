@@ -99,3 +99,25 @@
 #submitButton {
     width: 52rem;
 }
+
+#footerNav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#footerNav a {
+    margin: 0.5rem;
+}
+
+#icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.75rem;
+}
+
+#icons img {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
