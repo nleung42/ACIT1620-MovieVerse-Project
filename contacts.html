@@ -25,89 +25,56 @@
     <main id="MainPage">
         <div id="mainContent">
             <div id="centerText">
-                <h2>Our Team</h2>
-                <p>Fill in the form to contact reviewers!</p>
+                <h2>Have a Question?</h2>
+                <p>Fill in the form to contact us!</p>
             </div>
 
-            <section id="reviewerSection">
+            <div id="contentContainer">
+                <section id="infoSection">
+                    <h3>We're here to help!</h3>
 
-                <div id="reviewerGrid">
-                    <article class="reviewerInfo">
-                        <h3>Alex Rivera</h3>
-                        <p>Email: a.rivera@movieverse.com</p>
-                        <p>Phone: 778-201-4839</p>
-                    </article>
+                    <div id="infoText">
+                        <p>We're here to help!</p>
+                        <p>If you have any questions, feedback, or need support with our services, please don't hesitate to reach out to us using the contact form on this page or by email/phone.</p>
+                        <p>Our team is available during regular business hours (Monday-Friday, 9:00 AM-5:00 PM) and we'll do our best to respond as quickly as possible.</p>
+                        <p>Whether it's a simple question or a more detailed request, we're committed to providing you with friendly, reliable assistance.</p>
 
-                    <article class="reviewerInfo">
-                        <h3>Mia Chen</h3>
-                        <p>Email: m.chen@movieverse.com</p>
-                        <p>Phone: 778-317-9420</p>  
-                    </article>
-
-                    <article class="reviewerInfo">
-                        <h3>Jordan Lee</h3>
-                        <p>Email: j.lee@movieverse.com</p>
-                        <p>Phone: 604-442-6081</p>
-                    </article>
-
-                    <article class="reviewerInfo">
-
-                        <h3>Sara Patel</h3>
-                        <p>Email: s.patel@movieverse.com</p>
-                        <p>Phone: 604-673-1194</p>
-                    </article>
-
-                    <article class="reviewerInfo">
-                        <h3>Chris Harris</h3>
-                        <p>Email: c.harris@movieverse.com</p>
-                        <p>Phone: 604-420-6767</p>
-                    </article>
-
-                    <article class="reviewerInfo">
-                        <h3>Riley Park</h3>
-                        <p>Email: r.park@movieverse.com</p>
-                        <p>Phone: 778-909-2643</p>
-                    </article>
-                </div>
-            </section>
-
-            <section id="formSection">
-                <h4>Fill in the form to contact reviewers!</h4>
-
-                <form id="form">
-
-                    <div class="formLayout">
-                        <label for="inputName">Enter Your name</label>
-                        <input id="inputName" type="text">
+                        <p><strong>Phone:</strong> 604-420-6767</p>
+                        <p><strong>Email:</strong> support@movieverse.com</p>
                     </div>
+                    
+                </section>
 
-                    <div class="formLayout">
-                        <label for="inputSubject">Subject: </label>
-                        <input id="inputSubject" type="text">
-                    </div>
+                <section id="formSection">
+                    <form id="form">
+                        <div class="layout">
+                            <!-- <label for="inputName">Enter Your name</label> -->
+                            <input id="inputName" type="text" placeholder="Name">
+                        </div>
 
-                    <div class="formLayout">
-                        <label for="inputEmail">Enter your Email</label>
-                        <input id="inputEmail" type="text">
-                    </div>
+                        <div id="tester" class="layout">
+                            <!-- <label for="inputEmail">Enter your Email</label> -->
+                            <input id="inputEmail" type="text" placeholder="Email">
+                        </div>
 
-                    <div class="formLayout">
-                        <label for="inputPhone">Enter your phone number</label>
-                        <input id="inputPhone" type="text">
-                    </div>
+                        <div class="layout">
+                            <!-- <label for="inputSubject">Subject: </label> -->
+                            <input id="inputSubject" type="text" placeholder="Subject">
+                        </div>
 
-                    <div class="formLayout">
-                        <label for="inquiry">Write to us!</label>
-                        <input id="inquiry" type="text">
-                    </div>
+                        <div class="layout">
+                            <label for="inquiry">Write to us!</label>
+                            <textarea id="inquiry" placeholder="Message"></textarea>
+                        </div>
 
-                    <div id="messageLayout">
-                        <input type="submit">
-                    </div>
+                        <div class="layout">
+                            <input id="submitButton" type="submit">
+                        </div>
+                    </form>
 
-                </form>
-
-            </section>
+                </section>
+            </div>
+            
 
         </div>
     </main>

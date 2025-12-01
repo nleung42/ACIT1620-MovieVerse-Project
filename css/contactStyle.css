@@ -3,44 +3,99 @@
 }
 
 #centerText h2 {
-    font-size: 35px;
-    margin: 10px;
+    font-size: 2.1875rem;
+    margin: 0.625rem;
 }
 
 #centerText p {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
-#reviewerSection {
+#mainContent {
     background-color: #313131;
 }
 
-#reviewerGrid {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    /* border: 10px solid red; */
-    font-size: 20px;
+#contentContainer {
+    display: flex;
+    padding-bottom: 1rem;
 }
 
-.reviewerInfo {
-    background-color: navy;
-    /* border: 5px solid black; */
-    margin: 5px;
-}
-
-.reviewerInfo h3 {
+#infoSection {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.25rem;
+    padding-left: 2.5rem;
+    margin-right: 6rem;
     text-align: start;
 }
 
-.reviewerInfo p {
-    text-align: start;
-    margin: 0;
+#infoSection h3 {
+    font-size: 2rem;
+    width: 100%;
 }
+
 #formSection {
-    background-color: aqua;
+    width: 100%;
+
 }
 
 #form {
-        background-color: orange;
-        height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.625rem;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 0.3125rem;
+}
+
+.layout label {
+    width: 100%;
+    text-align: center;
+}
+/* #tester {
+    width: 60rem;
+    align-self: center;
+} */
+
+.layout input {
+    /* width: 86%; */
+    width: 51rem;
+    margin-bottom: 1.25rem;
+    padding: 0.5rem;
+    align-self: center;
+    border: 0.0625rem solid #cccccc;
+    border-radius: 0.25rem;
+}
+.formLayout {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: end;
+    align-content: center;
+}
+
+.messagelayout {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+#inquiry {
+    align-self: center;
+    /* width: 86%; */
+    width: 51.5rem;
+    border: 0.0625rem solid #cccccc;
+    border-radius: 0.25rem;
+    min-height: 300px;
+}
+
+#submitButton {
+    width: 52rem;
 }
