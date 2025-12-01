@@ -11,22 +11,36 @@
     font-size: 20px;
 }
 
-#reviwerSection {
-    background-color: yellow;
+#reviewerSection {
+    background-color: #313131;
 }
 
 #reviewerGrid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* border: 10px solid red; */
+    font-size: 20px;
 }
 
 .reviewerInfo {
     background-color: navy;
+    /* border: 5px solid black; */
+    margin: 5px;
+}
+
+.reviewerInfo h3 {
+    text-align: start;
+}
+
+.reviewerInfo p {
+    text-align: start;
+    margin: 0;
+}
+#formSection {
+    background-color: aqua;
 }
 
 #form {
-        background-color: #313131;
-        height: 600px;
+        background-color: orange;
+        height: 100%;
 }
