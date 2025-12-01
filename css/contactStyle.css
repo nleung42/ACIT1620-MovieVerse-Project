@@ -1,41 +1,32 @@
-#bodyStuff{
-    background-color: gray;
+#centerText {
+    background-color: #313131;
 }
 
-/* #contactDiv {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: left;
-    background-color: #474747;
-} */
+#centerText h2 {
+    font-size: 35px;
+    margin: 10px;
+}
 
-/* #contactNav {
-    display: flex;
-    align-items: center;
-} */
+#centerText p {
+    font-size: 20px;
+}
 
-/* #contactNav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: stretch;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-} */
+#reviwerSection {
+    background-color: yellow;
+}
 
-/* #contactNav li {
-    list-style: none;
+#reviewerGrid {
     display: flex;
-    justify-content: flex-start;
-    float: none;
-} */
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
 
-/* #contactNav a {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    box-sizing: border-box;
-    border: none;
-} */
+.reviewerInfo {
+    background-color: navy;
+}
+
+#form {
+        background-color: #313131;
+        height: 600px;
+}
