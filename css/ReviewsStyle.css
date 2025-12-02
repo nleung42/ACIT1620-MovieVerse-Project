@@ -1,12 +1,12 @@
-#CenterText {
+#centerText {
     background-color: #313131;
 }
 
-#CenterText p {
+#centerText p {
     font-size: 20px;
 }
 
-#CenterText h2 {
+#centerText h2 {
     font-size: 35px;
     margin: 10px;
 }
