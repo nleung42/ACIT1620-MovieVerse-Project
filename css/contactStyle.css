@@ -60,6 +60,10 @@
     width: 100%;
     text-align: center;
 }
+/* #tester {
+    width: 60rem;
+    align-self: center;
+} */
 
 .layout input {
     /* width: 86%; */
