@@ -19,6 +19,7 @@
 
 #contentContainer {
     display: flex;
+    width: 100%;
     padding-bottom: 1rem;
 }
 
@@ -66,8 +67,8 @@
 } */
 
 .layout input {
-    /* width: 86%; */
-    width: 51rem;
+    width: 86%;
+    /* width: 51rem; */
     margin-bottom: 1.25rem;
     padding: 0.5rem;
     align-self: center;
@@ -90,15 +91,16 @@
 
 #inquiry {
     align-self: center;
-    /* width: 86%; */
-    width: 51.5rem;
+    width: 86%;
+    /* width: 51.5rem; */
     border: 0.0625rem solid #cccccc;
     border-radius: 0.25rem;
     min-height: 300px;
 }
 
 #submitButton {
-    width: 52rem;
+    width: 85%;
+    /* width: 52rem; */
 }
 
 #contactFooterNav {
