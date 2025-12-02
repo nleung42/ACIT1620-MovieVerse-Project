@@ -76,7 +76,6 @@ li a:hover {
 
 #MainPage {
     background-color: #5c5c4a;
-    height: 800px;
 }
 
 #mainContent {
@@ -91,6 +90,23 @@ footer {
     padding: 5px;
 }
 
+#mainReviews {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.poster {
+    width: 225px;
+    height: 337px;
+    object-fit: cover;
+    padding: 20px;
+}
+
+#topBanner {
+    height: 300px;
+    object-fit: cover;
+}
 /*
 This portion is for small screens
 @media (max-width: 1000px) {

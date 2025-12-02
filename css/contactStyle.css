@@ -101,14 +101,14 @@
     width: 52rem;
 }
 
-#footerNav {
+#contactFooterNav {
     display: flex;
     flex-direction: column;
     justify-content: center;
 
 }
 
-#footerNav a {
+#contactFooterNav a {
     margin: 0.5rem;
 }
 
