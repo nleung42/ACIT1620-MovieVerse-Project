@@ -90,18 +90,26 @@ footer {
     padding: 5px;
 }
 
-#movieReviews {
+#mainReviews {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 25px;
+    gap: 20px;
+}
+
+#movieReviews {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
-    padding: 5px;
+    padding: 25px;
     gap: 20px;
 }
 
 .posterBox {
     border-radius: 10px;
-    overflow: hidden;
+    overflow: visible;
     border: 2px solid #ccc;
     padding: 10px;
     text-align: center;
@@ -109,12 +117,36 @@ footer {
     flex-direction: column;
     transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
     cursor: pointer;
+    position: relative;
 }
 
 .posterBox:hover {
     transform: translateY(-5px) scale(1.02);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     border-color: #6fb369;
+}
+
+.posterBox::before {
+    content: attr(data-rating);
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #FFB81C;
+    color: #000000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    white-space: nowrap;
+    text-shadow: none;
+}
+
+.posterBox:hover::before {
+    opacity: 1;
 }
 
 .movieTitle {
@@ -128,6 +160,14 @@ footer {
     width: 225px;
     height: 337px;
     object-fit: cover;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 #topBanner {
