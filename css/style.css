@@ -67,6 +67,7 @@ li a {
     height: 100%;
     box-sizing: border-box;
     transition: background-color 0.3s, color 0.3s;
+    border-radius: 10px;
 }
 
 li a:link {
