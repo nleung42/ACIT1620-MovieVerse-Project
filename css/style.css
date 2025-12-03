@@ -90,6 +90,108 @@ li a:hover {
     margin: 30px 2.5%;
 }
 
+/* contacts styles */
+
+#centerText {
+    background-color: #313131;
+}
+
+#centerText h2 {
+    font-size: 2.1875rem;
+    margin: 0.625rem;
+}
+
+#centerText p {
+    font-size: 1.25rem;
+}
+
+#mainContent {
+    background-color: #313131;
+    border: 1px solid #313131;
+    border-radius: 0.3125rem;
+}
+
+#contentContainer {
+    display: flex;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+#contactInfoSection {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2.5rem;
+    text-align: start;
+    width: 100%;
+}
+
+#contactInfoSection h3 {
+    font-size: 2rem;
+    width: 100%;
+}
+
+#contactFormSection {
+    width: 100%;
+}
+
+#contactForm {
+    padding-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.625rem;
+}
+
+.contactFormLayout {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 0.3125rem;
+    margin-right: 3.75rem;
+}
+
+.contactFormLayout label {
+    width: 100%;
+    text-align: center;
+}
+
+.contactFormLayout input {
+    width: 86%;
+    margin-bottom: 1.25rem;
+    padding: 0.5rem;
+    align-self: center;
+    border: 0.0625rem solid #cccccc;
+    border-radius: 0.25rem;
+}
+.contactFormcontactFormLayout {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: end;
+    align-content: center;
+}
+
+.messagecontactFormLayout {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+#contactInquiry {
+    align-self: center;
+    width: 88%;
+    border: 0.0625rem solid #cccccc;
+    border-radius: 0.25rem;
+    min-height: 300px;
+}
+
+#contactSubmitButton {
+    width: 89%;
+}
+
+/* footer */
+
 footer {
     background-color: #000000;
     font-size: 15px;
