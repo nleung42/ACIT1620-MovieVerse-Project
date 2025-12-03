@@ -263,6 +263,18 @@ footer {
     margin-right: 0.5rem;
 }
 
+@media (max-width: 1000px) {
+    #contentContainer {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    #contactInfoSection,
+    #contactFormSection {
+        width: 100%;
+    }
+}
+
 /*
 This portion is for small screens
 @media (max-width: 1000px) {
