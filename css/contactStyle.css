@@ -96,24 +96,12 @@
     width: 89%;
 }
 
-#contactFooterNav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
+@media (max-width: 768px) { /* makes form mobile scalable*/
+    #contentContainer {
+        flex-direction: column;
+    }
 }
-
-#contactFooterNav a {
-    margin: 0.5rem;
-}
-
-#icons {
-    display: flex;
-    justify-content: center;
-    margin-top: 0.75rem;
-}
-
-#icons img {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-}
+/* prompt
+how do i make it so that my input fields appear 
+below the we're here to help section for mobile screen or narrow screen scales?
+*/
