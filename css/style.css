@@ -161,9 +161,18 @@ li a:hover {
     margin-bottom: 1.25rem;
     padding: 0.5rem;
     align-self: center;
-    border: 0.0625rem solid #cccccc;
+    border: 0.125rem solid transparent;
     border-radius: 0.25rem;
 }
+
+.contactFormLayout input:hover,
+.contactFormLayout input:focus,
+#contactInquiry:hover,
+#contactInquiry:focus {
+    border-color: darkgray;
+    outline: none;
+}
+
 .contactFormcontactFormLayout {
     display: grid;
     grid-template-columns: auto;
@@ -181,9 +190,11 @@ li a:hover {
 #contactInquiry {
     align-self: center;
     width: 88%;
-    border: 0.0625rem solid #cccccc;
+    border: 0.125rem solid transparent;
     border-radius: 0.25rem;
     min-height: 300px;
+    transition: border-color 0.2s ease;
+
 }
 
 #contactSubmitButton {
