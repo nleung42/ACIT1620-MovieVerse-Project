@@ -140,3 +140,18 @@
     height: fit-content;
     background-color: rgb(37, 37, 37);
 }
+
+@media (max-width: 1200px) {
+    #mainReviews {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sidebar {
+        width: 100%;
+        float: none;
+    }
+    .bannerInfo {
+        display: none;
+    }
+}
