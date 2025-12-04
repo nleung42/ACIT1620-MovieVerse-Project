@@ -264,6 +264,16 @@ footer {
     margin-right: 0.5rem;
 }
 
+.stretched-link {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 @media (max-width: 1000px) {
     #contentContainer {
         flex-direction: column;
@@ -275,6 +285,8 @@ footer {
         width: 100%;
     }
 }
+
+
 
 /*
 This portion is for small screens

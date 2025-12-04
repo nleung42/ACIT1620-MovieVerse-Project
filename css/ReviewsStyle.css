@@ -3,7 +3,7 @@
 }
 
 #centerText {
-    background-color: #313131;
+    background-color: #31313100;
 }
 
 #centerText p {
@@ -19,14 +19,14 @@
     border: 3px solid #000000;
     background-color: #272727;
     height: auto;
-    width: 60%;
+    width: 50%;
     margin-left: 19%;
     padding: 1%;
 }
 
 #MovieReview {
     border: 3px solid #000000;
-    background-color: hsl(0, 0%, 47%);
+    background-color: hsla(0, 0%, 47%, 0.514);
     height: 75%;
     display: flex;
     justify-content: center;
@@ -55,7 +55,7 @@
 #ReviewBox {
     border: 3px solid #000000;
     height: 200px;
-    width: 60%;
+    width: 100%;
 }
 
 #ReviewBox h2 {
@@ -84,4 +84,8 @@
     font-size: 100%;
     height: 31.5%;
     text-shadow: 1.5px 1.5px #000000;
+}
+
+html {
+    scroll-behavior: smooth;
 }
