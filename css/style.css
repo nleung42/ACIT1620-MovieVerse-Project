@@ -246,7 +246,7 @@ li a:hover {
 }
 
 #contactSubmitButton {
-    width: 87.5%;
+    width: 88%;
 }
 
 /* footer */
@@ -307,31 +307,17 @@ html {
     #contactFormSection {
         width: calc(100% - 4.5rem);
     }
+    #contactSubmitButton {
+    width: 90%;
+    }
+
+    #contactInquiry {
+        width: 88.5%;
+    }
+
     #contactFormSection {
         width: calc(100% - 1rem);
         padding-right: 0.5rem;
     }
+
 }
-
-
-
-/*
-This portion is for small screens
-@media (max-width: 1000px) {
-
-    #wrapper{
-        box-shadow: 5px 5px 5px black;
-        margin-left: 0%;
-        margin-right: 0%;
-    }
-
-    li a {
-        padding: 15px 2px 15px 2px;
-    }
-    
-    #mainContent {
-        width: 100%;
-        margin: 30px 0%;
-    }
-}
-*/
