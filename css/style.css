@@ -273,6 +273,10 @@ html {
 }
 
 @media (max-width: 1000px) {
+    #contactNav {
+        flex-wrap: wrap;
+    }
+
     #contentContainer {
         flex-direction: column;
         gap: 1.5rem;
@@ -280,7 +284,7 @@ html {
 
     #contactInfoSection,
     #contactFormSection {
-        width: calc(100% - 2.5rem);
+        width: calc(100% - 4.5rem);
     }
 }
 
