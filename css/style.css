@@ -262,14 +262,13 @@ footer {
     margin-right: 0.5rem;
 }
 
-.stretched-link {
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-}
-
 html {
     scroll-behavior: smooth;
+}
+
+#title {
+    transform: scale(1.5);
+    padding: 34px;
 }
 
 @media (max-width: 1000px) {
