@@ -11,23 +11,24 @@
 
 #topBanner {
     width: 100%;
-    transform: scale(1.05317, 1.05317);
     display: block;
     object-fit: cover;
 }
 
 .topBannerInfo{
-    padding: 48px;
+    padding-top: 48px;
     font-size: 16px;
     font-weight: bold;
     margin-top: 50px;
+    position: relative;
+    left: -10%;
+    background-color: rgb(37, 37, 37);
 }
 
 .bannerInfo {
     position: absolute;
-    bottom: 20px;
-    right: 440px;
-    background-color: rgba(0, 0, 0, 0.7);
+    bottom: 3%;
+    right: 23%;
     color: #ffffff;
     padding: 15px 20px;
     border-radius: 8px;
@@ -35,7 +36,7 @@
 
 .bannerInfo p {
     margin: 0 0 10px 0;
-    font-size: 16px;
+    font-size: clamp(11px, 2.5vw, 16px);
     font-weight: bold;
     text-align: right;
 }
@@ -47,7 +48,7 @@
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: clamp(12px, 2vw, 14px);
     font-weight: bold;
     transition: background-color 0.3s ease;
 }
@@ -136,7 +137,6 @@
     float: right;
     padding: 20px;
     box-sizing: border-box;
-    margin-top: -100px;
     height: fit-content;
     background-color: rgb(37, 37, 37);
 }
