@@ -19,8 +19,8 @@
     border: 3px solid #000000;
     background-color: #272727;
     height: auto;
-    width: 50%;
-    margin-left: 19%;
+    width: 70%;
+    margin-left: 15%;
     padding: 1%;
 }
 
@@ -35,14 +35,15 @@
 #MoviePoster {
     border: 3px solid #000000;
     width: 20%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #MoviePoster img {
-    height: 160px;
-    width: 100px;
+    height: 77.5%;
+    width: 87.5%;
     margin: 10%;
     border: 3px solid #000000;
     transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease;
@@ -54,7 +55,7 @@
 
 #ReviewBox {
     border: 3px solid #000000;
-    height: 200px;
+    height: 260px;
     width: 100%;
 }
 
@@ -88,4 +89,45 @@
 
 html {
     scroll-behavior: smooth;
+}
+
+@media (max-width: 1000px) {
+    #ReviewsDisplay {
+        width: 100%;
+        margin-left: 0%;
+        padding: 0%;
+        padding-top: 1%;
+    }
+
+    #MovieReview {
+        height: 75%;
+        width: 100%;
+        display: inline-block;
+    }
+
+    #MoviePoster {
+        width: 100%;
+        height: 350px;
+        border: none;
+    }
+
+    #MoviePoster img {
+        height: 280px;
+        width: 200px;
+    }
+
+    #MoviePoster img:hover {
+        transform: translateY(2%) scale(1.125);
+    }
+
+    #ReviewBox {
+        border: 3px solid #000000;
+        height: 200px;
+        width: 100%;
+    }
+
+    #ReviewBox #FullReview {
+        padding-right: 1%;
+        padding-left: 1%;
+    }
 }
