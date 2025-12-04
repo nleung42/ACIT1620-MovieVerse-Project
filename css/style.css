@@ -222,7 +222,7 @@ li a:hover {
 
 #contactInquiry {
     align-self: center;
-    width: 88%;
+    width: 87%;
     border: 0.125rem solid transparent;
     border-radius: 0.25rem;
     min-height: 300px;
@@ -230,8 +230,14 @@ li a:hover {
 
 }
 
+.contactFormLayout input::placeholder,
+#contactInquiry::placeholder {
+    font-family: 'testFont', Arial, sans-serif;
+    font-size: 1rem;
+}
+
 #contactSubmitButton {
-    width: 89%;
+    width: 87.5%;
 }
 
 /* footer */
