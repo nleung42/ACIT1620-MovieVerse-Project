@@ -26,8 +26,8 @@
 }
 
 #MovieReview {
-    border-top: 3px solid #969696;
-    /* border-radius: 4px; */
+    border: 3px solid #969696;
+    border-radius: 4px;
     background-color: #31313100;
     height: 75%;
     display: flex;
@@ -60,7 +60,7 @@
 
 #ReviewBox h2 {
     margin-top: -0.25%;
-    padding: 0.5%;
+    padding: 2%;
 }
 
 #ReviewBox h3 {
@@ -71,6 +71,23 @@
 #ReviewBox #ReviewRating {
     font-size: 100%;
     margin-top: -2%;
+    color: greenyellow;
+}
+
+#wicked #ReviewRating, 
+#jumpstreet #ReviewRating, 
+#starwarsIV #ReviewRating {
+    font-size: 100%;
+    margin-top: -2%;
+    color: red;
+}
+
+#infinitywar #ReviewRating, 
+#kungfupanda #ReviewRating, 
+#terminator #ReviewRating {
+    font-size: 100%;
+    margin-top: -2%;
+    color: orange;
 }
 
 #ReviewBox #FullReview {
