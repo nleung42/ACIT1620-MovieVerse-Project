@@ -26,8 +26,8 @@
 }
 
 #MovieReview {
-    border: 3px solid #969696;
-    border-radius: 4px;
+    border-top: 3px solid #969696;
+    /* border-radius: 4px; */
     background-color: #31313100;
     height: 75%;
     display: flex;
