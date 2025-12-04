@@ -11,8 +11,9 @@
 
 #topBanner {
     width: 100%;
-    transform: scale(1.05317, 1.21);
+    transform: scale(1.05317, 1.05317);
     display: block;
+    object-fit: cover;
 }
 
 .topBannerInfo{
@@ -136,8 +137,4 @@
     padding: 10px;
     box-sizing: border-box;
     margin-top: -100px;
-}
-
-#topBanner {
-    object-fit: cover;
 }
