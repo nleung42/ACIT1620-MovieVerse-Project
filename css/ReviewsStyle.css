@@ -47,6 +47,7 @@
     width: 87.5%;
     margin: 10%;
     transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease;
+    border-radius: 3px;
 }
 
 #MoviePoster img:hover {

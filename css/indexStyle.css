@@ -35,7 +35,7 @@
 }
 
 .bannerInfo p {
-    margin: 0 0 10px 0;
+    margin: 0 04 0;
     font-size: clamp(11px, 2.5vw, 16px);
     font-weight: bold;
     text-align: right;
@@ -128,6 +128,7 @@
     width: 225px;
     height: 337px;
     object-fit: cover;
+    border-radius: 4px;
 }
 
 #sidebar {
