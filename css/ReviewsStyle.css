@@ -25,7 +25,7 @@
     gap: 1rem;
 }
 
-#MovieReview {
+.MovieReview {
     border: 3px solid #969696;
     border-radius: 4px;
     background-color: #373737;
@@ -34,7 +34,7 @@
     justify-content: center;
 }
 
-#MoviePoster {
+.MoviePoster {
     width: 20%;
     height: auto;
     display: flex;
@@ -42,7 +42,7 @@
     align-items: center;
 }
 
-#MoviePoster img {
+.MoviePoster img {
     height: 77.5%;
     width: 87.5%;
     margin: 10%;
@@ -50,48 +50,48 @@
     border-radius: 3px;
 }
 
-#MoviePoster img:hover {
+.MoviePoster img:hover {
     transform: translateY(2%) scale(1.125);
 }
 
-#ReviewBox {
+.ReviewBox {
     height: 260px;
     width: 100%;
 }
 
-#ReviewBox h2 {
+.ReviewBox h2 {
     margin-top: -0.25%;
     padding: 2%;
 }
 
-#ReviewBox h3 {
+.ReviewBox h3 {
     margin-top: -2.5%;
     padding: 0.5%;
 }
 
-#ReviewBox #ReviewRating {
+.ReviewBox .ReviewRating {
     font-size: 100%;
     margin-top: -2%;
     color: greenyellow;
 }
 
-#wicked #ReviewRating, 
-#jumpstreet #ReviewRating, 
-#starwarsIV #ReviewRating {
+#wicked .ReviewRating, 
+#jumpstreet .ReviewRating, 
+#starwarsIV .ReviewRating {
     font-size: 100%;
     margin-top: -2%;
     color: red;
 }
 
-#infinitywar #ReviewRating, 
-#kungfupanda #ReviewRating, 
-#terminator #ReviewRating {
+#infinitywar .ReviewRating, 
+#kungfupanda .ReviewRating, 
+#terminator .ReviewRating {
     font-size: 100%;
     margin-top: -2%;
     color: orange;
 }
 
-#ReviewBox #FullReview {
+.ReviewBox .FullReview {
     overflow-wrap: break-word;
     font-size: 100%;
     height: 31.5%;
@@ -109,32 +109,32 @@ html {
         padding-top: 1%;
     }
 
-    #MovieReview {
+    .MovieReview {
         height: 75%;
         width: 100%;
         display: inline-block;
     }
 
-    #MoviePoster {
+    .MoviePoster {
         width: 100%;
         height: 350px;
     }
 
-    #MoviePoster img {
+    .MoviePoster img {
         height: 280px;
         width: 200px;
     }
 
-    #MoviePoster img:hover {
+    .MoviePoster img:hover {
         transform: translateY(2%) scale(1.125);
     }
 
-    #ReviewBox {
+    .ReviewBox {
         height: 200px;
         width: 100%;
     }
 
-    #ReviewBox #FullReview {
+    .ReviewBox .FullReview {
         padding-right: 1%;
         padding-left: 1%;
     }
