@@ -88,6 +88,12 @@ li a:hover {
     flex-direction: column;
 }
 
+#smallLogo a {
+    all: unset;
+    display: block;
+    cursor: pointer;
+}
+
 /* left section */
 #myList {
     display: flex;
